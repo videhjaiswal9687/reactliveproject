@@ -1,10 +1,34 @@
 .App {
   text-align: center;
+  background-color: brown;
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.footerdemo
+{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color:blueviolet;
+  color:white;
+}
+
+.add
+{
+  background-color: cadetblue;
+  color: white;
+  border:2px solid black;
+}
+.mul
+{
+  background-color: tomato;
+  color: white;
+  border:2px dashed black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
